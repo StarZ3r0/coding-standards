@@ -10,4 +10,14 @@ When contributing code to with me, you must follow its coding standards.
 ### Frameworks
 *Használt keretrendszerek*
 
-* [Laravel 5.1 LTS](https://laravel.com/docs/5.1) 
+* [Laravel 5.1 LTS](https://laravel.com/docs/5.1)
+
+#### Laravel components
+*Laravelhez készült komponensek*
+
+* [Laravel Collective](https://laravelcollective.com/)
+
+### Components
+*Haszált csomagok és függvénykönyvtárak*
+
+* [Intervention Image](http://image.intervention.io/) - Képek manipulációjához
