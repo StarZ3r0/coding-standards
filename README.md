@@ -16,6 +16,7 @@ When contributing code to with me, you must follow its coding standards.
 *Laravelhez készült komponensek*
 
 * [Laravel Collective](https://laravelcollective.com/)
+* [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
 
 ### Components
 *Haszált csomagok és függvénykönyvtárak*
