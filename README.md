@@ -17,6 +17,7 @@ When contributing code to with me, you must follow its coding standards.
 
 * [Laravel Collective](https://laravelcollective.com/)
 * [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
+* [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 
 ### Components
 *Haszált csomagok és függvénykönyvtárak*
