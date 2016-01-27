@@ -20,6 +20,13 @@ When contributing code to with me, you must follow its coding standards.
 * [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 
 ### Components
-*Haszált csomagok és függvénykönyvtárak*
+*Használt csomagok és függvénykönyvtárak*
 
 * [Intervention Image](http://image.intervention.io/) - Képek manipulációjához
+
+## Frontend
+### Frameworks
+*Használható frontend keretrendszerek*
+
+* [Bootstrap](http://getbootstrap.com/) - A legismertebb
+* [Skeleton](http://getskeleton.com/) - Frontend framework 400 sorból
