@@ -31,3 +31,14 @@ When contributing code to with me, you must follow its coding standards.
 * [Bootstrap](http://getbootstrap.com/) - A legismertebb
 * [Skeleton](http://getskeleton.com/) - Frontend framework 400 sorból
 * [Pure.css](http://purecss.io/) - Yahoo-féle css framework (4.0KB)
+
+### Libraries / components
+*HTML / CSS könyvtárak és eszközök*
+
+* [Animate.css](https://github.com/daneden/animate.css)
+
+## Javascript
+
+### jQuery plugins
+* [Owl Carousel 2](https://github.com/smashingboxes/OwlCarousel2)
+* [Formstone](https://formstone.it/)
