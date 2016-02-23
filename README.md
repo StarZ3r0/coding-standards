@@ -1,5 +1,5 @@
 # Coding standards
-When contributing code to with me, you must follow its coding standards.
+When contributing code to with me, you must follow its coding standards and use this tools.
 
 ## PHP
 ### Coding Standards
@@ -43,8 +43,18 @@ When contributing code to with me, you must follow its coding standards.
 
 * [Animate.css](https://github.com/daneden/animate.css)
 * [Loading...](https://github.com/jxnblk/loading) - animált svg-k
+* [Colors](https://github.com/mrmrs/colors)
+
+### Image optimizer
+
+* [Compressor.io](https://compressor.io/compress)
+* [Kraken Image Optimizer](https://kraken.io/)
 
 ## Javascript
+
+### Libraries / components
+
+* [Nightmare](http://www.nightmarejs.org/)
 
 ### jQuery plugins
 * [Owl Carousel 2](https://github.com/smashingboxes/OwlCarousel2)
