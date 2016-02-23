@@ -32,6 +32,12 @@ When contributing code to with me, you must follow its coding standards.
 * [Skeleton](http://getskeleton.com/) - Frontend framework 400 sorból
 * [Pure.css](http://purecss.io/) - Yahoo-féle css framework (4.0KB)
 
+### Icons
+*Font ikonok*
+
+* [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
+* [Payment Webfont](https://github.com/orlandotm/payment-webfont/)
+
 ### Libraries / components
 *HTML / CSS könyvtárak és eszközök*
 
