@@ -36,6 +36,7 @@ When contributing code to with me, you must follow its coding standards.
 *HTML / CSS könyvtárak és eszközök*
 
 * [Animate.css](https://github.com/daneden/animate.css)
+* [Loading...](https://github.com/jxnblk/loading) - animált svg-k
 
 ## Javascript
 
