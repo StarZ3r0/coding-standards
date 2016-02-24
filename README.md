@@ -1,5 +1,5 @@
 # Coding standards
-When contributing code to with me, you must follow its coding standards and use this tools.
+When contributing code to with me, you must follow its coding standards.
 
 ## PHP
 ### Coding Standards
