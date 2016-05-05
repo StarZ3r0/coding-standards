@@ -25,7 +25,7 @@ When contributing code to with me, you must follow its coding standards.
 
 * sorvégek Unix LF formában
 * minden fájl végén legyen egy üres sor
-* <code>true</code> és <code>false</code> kisbetűvel
+* a <code>null</code>, továbbá a <code>true</code> és <code>false</code> kisbetűvel
 
 ### Kiegészítések
 
