@@ -3,6 +3,7 @@ When contributing code to with me, you must follow its coding standards.
 
 ## Globális irányelvek
 
+* [EditorConfig](http://editorconfig.org/) használata javasolt
 * identre 4 space használata tabok helyett
 * UTF-8 kódolás használata
 
