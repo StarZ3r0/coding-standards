@@ -16,11 +16,11 @@ When contributing code to with me, you must follow its coding standards.
 * törekedni kell a szemantikus kódra, a valid markup cél, de nem elvárás
 * kizárólag HTML5 doctype használható
 
-
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
 
-* [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-2](http://www.php-fig.org/psr/psr-2/) követése.
+* [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-2](http://www.php-fig.org/psr/psr-2/) követése
+* Kommentek esetében a [phpDocumentor](http://www.phpdoc.org/docs/latest/index.html) előírásait kell követni
 
 ### Megjegyzések
 
