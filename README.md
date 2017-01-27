@@ -14,16 +14,20 @@ When contributing code to with me, you must follow its coding standards.
 
 * projekt indulásnál a [starter-kit](https://github.com/StarZ3r0/starter-kit) használatos
 * törekedni kell a szemantikus kódra, a valid markup cél, de nem elvárás
-* kizárólag HTML5 doctype használható
 * kiemelt szempont a sebesség
 * elvárt a böngészőfüggetlen kód, ha arról a specifikáció másképp nem rendelkezik, akkor a támogatott böngészők az Internet Explorer 10+, illetve a Chrome és Firefox legfrisebb verziói
 * ha nem megoldható a böngészőfüggetlen kód, akkor törekedni kell az érintett böngészőben való használhatóságra
 
 ### HTML
 
-* kötelező a HTML5 doctype (`<!doctype html>`)
-* kötelező az UTF-8 kódolás (`<meta charset="UTF-8">`)
+* célszerű használni a HTML5 szemantikus új elemeit (header, footer, nav, article, section, stb...)
+* kizárólag HTML5 doctype használható (`<!doctype html>`)
+* kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`)
 * self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
+
+### CSS
+
+* `!important` kulcsszó használata kerülendő
 
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
