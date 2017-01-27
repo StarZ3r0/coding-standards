@@ -6,6 +6,7 @@ When contributing code to with me, you must follow its coding standards.
 * [EditorConfig](http://editorconfig.org/) használata javasolt
 * identre 4 space használata tabok helyett
 * UTF-8 kódolás használata
+* minden fájlnév kisbetűs, szavak elválasztására kötöjelet (`-`) kell használni
 
 ## Frontend Coding Standards
 *Frontend kódolási koncenciók*
@@ -22,7 +23,7 @@ When contributing code to with me, you must follow its coding standards.
 
 * célszerű használni a HTML5 szemantikus új elemeit (header, footer, nav, article, section, stb...)
 * kizárólag HTML5 doctype használható (`<!doctype html>`)
-* kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`)
+* kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`), a kódolás megadásának az első [1024 byteban](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset) kell lennie
 * self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
 
 ### CSS
