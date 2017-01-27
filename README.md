@@ -15,6 +15,15 @@ When contributing code to with me, you must follow its coding standards.
 * projekt indulásnál a [starter-kit](https://github.com/StarZ3r0/starter-kit) használatos
 * törekedni kell a szemantikus kódra, a valid markup cél, de nem elvárás
 * kizárólag HTML5 doctype használható
+* kiemelt szempont a sebesség
+* elvárt a böngészőfüggetlen kód, ha arról a specifikáció másképp nem rendelkezik, akkor a támogatott böngészők az Internet Explorer 10+, illetve a Chrome és Firefox legfrisebb verziói
+* ha nem megoldható a böngészőfüggetlen kód, akkor törekedni kell az érintett böngészőben való használhatóságra
+
+### HTML
+
+* kötelező a HTML5 doctype (<code><!doctype html></code>)
+* kötelező az UTF-8 kódolás (<code><meta charset="UTF-8"></code>)
+* self closing elemeknél tilos kitenni a záró perjelet (<code><img src="/logo.png" alt=""></code>)
 
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
@@ -33,3 +42,7 @@ When contributing code to with me, you must follow its coding standards.
 * short tag-ek használata tilos
 * kód kommentelése elvárt a szükséges mértékben
 * todo címkék használata lehetséges, de legyen felvive az Issue trackerbe
+
+## Hasznos linkek
+
+* [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
