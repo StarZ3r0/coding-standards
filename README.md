@@ -21,9 +21,9 @@ When contributing code to with me, you must follow its coding standards.
 
 ### HTML
 
-* kötelező a HTML5 doctype (<code><!doctype html></code>)
-* kötelező az UTF-8 kódolás (<code><meta charset="UTF-8"></code>)
-* self closing elemeknél tilos kitenni a záró perjelet (<code><img src="/logo.png" alt=""></code>)
+* kötelező a HTML5 doctype (`<!doctype html>`)
+* kötelező az UTF-8 kódolás (`<meta charset="UTF-8">`)
+* self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
 
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
