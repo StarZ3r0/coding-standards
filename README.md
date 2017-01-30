@@ -21,14 +21,33 @@ When contributing code to with me, you must follow its coding standards.
 
 ### HTML
 
+* kizárólag kisbetűket használunk
 * célszerű használni a HTML5 szemantikus új elemeit (header, footer, nav, article, section, stb...)
 * kizárólag HTML5 doctype használható (`<!doctype html>`)
 * kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`), a kódolás megadásának az első [1024 byteban](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset) kell lennie
 * self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
+* attribútumok értékeinél double quotes használatos (`"`)
+* entitásokat nem használunk, a kivételes eseteket leszámítva (`<` és `>`, illetve `&` némelyik speciális vezérlőkarakterhez, mint pl. a nem törhető szóközhöz)
 
 ### CSS
 
+* kizárólag kisbetűket használunk
+* az egyed definíciók közé üres sor rakunk
+* id- és osztályneveknél a szavak elválasztására kötőjelet használunk (`.button-large`)
+* a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
 * `!important` kulcsszó használata kerülendő
+
+Példa:
+```html
+html {
+    background: #fff;
+}
+
+.post-meta {
+    margin: auto;
+    width: 50%;
+}
+```
 
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
