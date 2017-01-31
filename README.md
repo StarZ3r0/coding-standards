@@ -70,3 +70,4 @@ html {
 ## Hasznos linkek
 
 * [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
+* [Code Guide by @mdo](http://codeguide.co/)
