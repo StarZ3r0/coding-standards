@@ -8,6 +8,14 @@ When contributing code to with me, you must follow its coding standards.
 * UTF-8 kódolás használata
 * minden fájlnév kisbetűs, szavak elválasztására kötöjelet (`-`) kell használni
 
+## UX
+
+Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén ([további információ](http://www.flagsarenotlanguages.com/blog/best-practice-for-presenting-languages/)):
+- a felhasználó saját nyelvén legyen megjelenítve a nyelv (pl. german helyett deutsch)
+- lehetőség szerint az összes elérhető nyelvet jelenítsük meg
+- detektáljuk a felhasználó böngészőjének a nyelvét
+- ne használjunk zászlókat a nyelvek reprezentálására
+
 ## Frontend Coding Standards
 *Frontend kódolási koncenciók*
 
@@ -32,7 +40,7 @@ When contributing code to with me, you must follow its coding standards.
 ### CSS
 
 * kizárólag kisbetűket használunk
-* az egyed definíciók közé üres sor rakunk
+* az egyes definíciók közé üres sor rakunk
 * id- és osztályneveknél a szavak elválasztására kötőjelet használunk (`.button-large`)
 * a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
 * `!important` kulcsszó használata kerülendő
