@@ -57,6 +57,10 @@ html {
 }
 ```
 
+### JavaSrcipt
+
+* kód dokumentálásához a [JSDoc](http://usejsdoc.org/) használandó
+
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
 
