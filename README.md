@@ -3,7 +3,9 @@ When contributing code to with me, you must follow its coding standards.
 
 ## Globális irányelvek
 
+* verziószámozás esetében a [Semantic Versioning](http://semver.org/) követendő
 * [EditorConfig](http://editorconfig.org/) használata javasolt
+* changelog (`changelog.md`) készítése javasolt a [Keep a Changelog](http://keepachangelog.com/en/0.3.0/) ajánlásai alapján
 * identre 4 space használata tabok helyett
 * UTF-8 kódolás használata
 * minden fájlnév kisbetűs, szavak elválasztására kötöjelet (`-`) kell használni
