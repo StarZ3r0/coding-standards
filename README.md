@@ -83,17 +83,7 @@ html {
 
 ## Ajánlott külső függvénykönyvtárak
 
-### PHP
-
-#### Laravel
-
-* [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
-* [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
-* [Guzzle](https://github.com/guzzle/guzzle)
-* [Laravel backup](https://github.com/spatie/laravel-backup)
-* [Laravel Collective](https://laravelcollective.com/)
-* [Laravel Socialite](https://github.com/laravel/socialite)
-* [Laravel Fractal](https://github.com/spatie/laravel-fractal)
+Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/StarZ3r0/awesome-links) gyűjteményemben.
 
 ## Hasznos linkek
 
