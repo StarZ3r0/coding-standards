@@ -81,6 +81,20 @@ html {
 * kód kommentelése elvárt a szükséges mértékben
 * todo címkék használata lehetséges, de legyen felvive az Issue trackerbe
 
+## Ajánlott külső függvénykönyvtárak
+
+### PHP
+
+#### Laravel
+
+* [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
+* [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
+* [Guzzle](https://github.com/guzzle/guzzle)
+* [Laravel backup](https://github.com/spatie/laravel-backup)
+* [Laravel Collective](https://laravelcollective.com/)
+* [Laravel Socialite](https://github.com/laravel/socialite)
+* [Laravel Fractal](https://github.com/spatie/laravel-fractal)
+
 ## Hasznos linkek
 
 * [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
