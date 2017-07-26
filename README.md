@@ -9,6 +9,7 @@ When contributing code to with me, you must follow its coding standards.
 * identre 4 space használata tabok helyett
 * UTF-8 kódolás használata
 * minden fájlnév kisbetűs, szavak elválasztására kötöjelet (`-`) kell használni
+* a kód dokumentálása történhet magyar vagy angol nyelven, viszont fontos, hogy konzekvens legyen
 
 ## UX
 
