@@ -68,6 +68,16 @@ html {
 
 * [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-2](http://www.php-fig.org/psr/psr-2/) követése
 * Kommentek esetében a [phpDocumentor](http://www.phpdoc.org/docs/latest/index.html) előírásait kell követni
+* vezérlési szerkezeteknél használhatóak az [alternatív verziók](http://php.net/manual/pl/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
+
+Short if használata (a váratlan eredmények elkerülése érdekében):
+```php
+$error = ($error_status ? 'Error' : 'No Error');
+```
+Sztringek összefűzésénél:
+```php
+$error = 'Status: ' . ($error_status ? 'Error' : 'No Error');
+```
 
 ### Megjegyzések
 
