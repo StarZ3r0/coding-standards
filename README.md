@@ -79,6 +79,10 @@ Sztringek összefűzésénél:
 ```php
 $error = 'Status: ' . ($error_status ? 'Error' : 'No Error');
 ```
+* short tag-et lehet használni és nem szükséges a végére pontosvessző ([forrás](http://php.net/manual/en/language.basic-syntax.instruction-separation.php))
+```php
+<?= $var ?>
+```
 
 ### Megjegyzések
 
