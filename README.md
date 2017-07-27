@@ -49,7 +49,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * `!important` kulcsszó használata kerülendő
 
 Példa:
-```html
+```
 html {
     background: #fff;
 }
@@ -72,16 +72,20 @@ html {
 * vezérlési szerkezeteknél használhatóak az [alternatív verziók](http://php.net/manual/pl/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
 
 Short if használata (a váratlan eredmények elkerülése érdekében):
-```php
+```
 $error = ($error_status ? 'Error' : 'No Error');
 ```
 Sztringek összefűzésénél:
-```php
+```
 $error = 'Status: ' . ($error_status ? 'Error' : 'No Error');
 ```
 * short tag-et lehet használni és nem szükséges a végére pontosvessző ([forrás](http://php.net/manual/en/language.basic-syntax.instruction-separation.php))
-```php
+```
 <?= $var ?>
+```
+* osztály példányosításakor kirakjuk a zárójelet
+```
+$car = new Car();
 ```
 
 ### Megjegyzések
