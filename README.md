@@ -62,6 +62,10 @@ html {
 
 ### JavaSrcipt
 
+* JS prefix használata ajánlott, ezek formázása CSS-el kerülendő
+```
+<div id="js-slider" class="my-slider">
+```
 * kód dokumentálásához a [JSDoc](http://usejsdoc.org/) használandó
 
 ## PHP Coding Standards
