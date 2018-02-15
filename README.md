@@ -46,6 +46,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * az egyes definíciók közé üres sor rakunk
 * id- és osztályneveknél a szavak elválasztására kötőjelet használunk (`.button-large`)
 * a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
+* url-ek megadásánál aposztrófot használunk (url('/image.png'))
 * `!important` kulcsszó használata kerülendő
 
 Példa:
