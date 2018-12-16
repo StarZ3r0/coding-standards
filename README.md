@@ -69,6 +69,10 @@ html {
 ```
 * kód dokumentálásához a [JSDoc](http://usejsdoc.org/) használandó
 
+### Assetek
+
+* képek fájlneveiben kötőjelet használunk (`header-background.png`)
+
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
 
