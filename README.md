@@ -114,15 +114,17 @@ $car = new Car();
 
 Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/StarZ3r0/awesome-links) gyűjteményemben.
 
-## Hasznos linkek
-
-* [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
-* [Code Guide by @mdo](http://codeguide.co/)
-
 ## Laravel specifikus
 
 ### Frissítés
 
 * Adott projekt abban a verzióban tölti a teljes életciklusát, amelyben indult
 * Nagyobb és folyamatosan karbantartott projektek esetében [Laravel Shift](https://laravelshift.com/)-el frissítünk
+
+## Hasznos linkek
+
+* [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
+* [Code Guide by @mdo](http://codeguide.co/)
+
+
 
