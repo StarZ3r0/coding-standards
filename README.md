@@ -48,6 +48,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
 * url-ek megadásánál aposztrófot használunk (url('/image.png'))
 * `!important` kulcsszó használata kerülendő
+* ha valahol elkerülhetetlen a CSS hack használata, akkor különítsül el egy shame.css-be
 
 Példa:
 ```
