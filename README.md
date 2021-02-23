@@ -83,11 +83,11 @@ html {
 
 Short if használata (a váratlan eredmények elkerülése érdekében):
 ```
-$error = ($error_status ? 'Error' : 'No Error');
+$error = ($error_status ? "Error" : "No Error");
 ```
 Sztringek összefűzésénél:
 ```
-$error = 'Status: ' . ($error_status ? 'Error' : 'No Error');
+$error = "Status: " . ($error_status ? "Error" : "No Error");
 ```
 * short tag-et lehet használni és nem szükséges a végére pontosvessző ([forrás](http://php.net/manual/en/language.basic-syntax.instruction-separation.php))
 ```
@@ -115,7 +115,7 @@ $car = new Car();
 ### Frissítés
 
 * Adott projekt abban a verzióban tölti a teljes életciklusát, amelyben indult
-* Nagyobb és folyamatosan karbantartott projektek esetében [Laravel Shift](https://laravelshift.com/)-el frissítünk
+* Nagyobb és folyamatosan karbantartott projektek esetében [Laravel Shift](https://laravelshift.com/)-el (vagy manuálisan) frissítünk
 
 ## Ajánlott külső függvénykönyvtárak
 
