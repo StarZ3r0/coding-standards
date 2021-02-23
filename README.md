@@ -117,6 +117,16 @@ $car = new Car();
 * Adott projekt abban a verzióban tölti a teljes életciklusát, amelyben indult
 * Nagyobb és folyamatosan karbantartott projektek esetében [Laravel Shift](https://laravelshift.com/)-el (vagy manuálisan) frissítünk
 
+## Git
+
+* használt commit típusok
+```
+feature
+bugfix
+task
+wip
+```
+
 ## Ajánlott külső függvénykönyvtárak
 
 Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/StarZ3r0/awesome-links) gyűjteményemben.
