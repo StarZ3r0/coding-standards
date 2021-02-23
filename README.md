@@ -80,7 +80,7 @@ html {
 * [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-2](http://www.php-fig.org/psr/psr-2/) követése
 * sztringek esetében az aposztróf (`'`) használata kötelező
 * Kommentek esetében a [phpDocumentor](http://www.phpdoc.org/docs/latest/index.html) előírásait kell követni
-* vezérlési szerkezeteknél használhatóak az [alternatív verziók](http://php.net/manual/pl/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
+* vezérlési szerkezeteknél használhatóak az [alternatív verziók](https://www.php.net/manual/en/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
 
 Short if használata (a váratlan eredmények elkerülése érdekében):
 ```
