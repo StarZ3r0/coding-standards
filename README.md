@@ -134,6 +134,7 @@ Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/Sta
 
 ## Hasznos linkek
 
+* [W3C Markup Validation Service](https://validator.w3.org/)
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 * [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
 * [Code Guide by @mdo](http://codeguide.co/)
