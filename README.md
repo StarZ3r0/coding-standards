@@ -114,6 +114,10 @@ $car = new Car();
 
 ## Laravel specifikus
 
+### Alapvetések
+
+* [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)-ban leírt ajánlások követése
+
 ### Frissítés
 
 * Adott projekt abban a verzióban tölti a teljes életciklusát, amelyben indult
