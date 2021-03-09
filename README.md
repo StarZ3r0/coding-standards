@@ -77,8 +77,9 @@ html {
 ## PHP Coding Standards
 *PHP kódolási koncenciók.*
 
+* változónevek kiválaszátáshoz a [naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet)-et ajánlott alkalmazni
 * [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-12](http://www.php-fig.org/psr/psr-12/) követése
-* sztringek esetében az aposztróf (`'`) használata kötelező
+* sztringek esetében az aposztróf (`'`) használata kötelező, változók esetében használható a double quote (```"```)
 * Kommentek esetében a [phpDocumentor](http://www.phpdoc.org/docs/latest/index.html) előírásait kell követni
 * vezérlési szerkezeteknél használhatóak az [alternatív verziók](https://www.php.net/manual/en/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
 
