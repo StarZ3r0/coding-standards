@@ -106,6 +106,10 @@ $car = new Car();
 * minden fájl végén legyen egy üres sor
 * a <code>null</code>, továbbá a <code>true</code> és <code>false</code> kisbetűvel
 
+## Eszközök
+
+* statikus kód analízis
+
 ### Kiegészítések
 
 * short tag-ek használata tilos
