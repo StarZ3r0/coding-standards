@@ -137,6 +137,11 @@ task
 wip
 ```
 
+## Tartalom
+
+* ha a projekt költségvetés engedi, akkor érdemes szövegírót alkalmazni
+* ha az előbbira nincs lehetőség, akkor a [közérthető fogalmazás](https://kozerthetofogalmazas.hu/) alapelveit érdemes betartani
+
 ## Ajánlott külső függvénykönyvtárak
 
 Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/StarZ3r0/awesome-links) gyűjteményemben.
