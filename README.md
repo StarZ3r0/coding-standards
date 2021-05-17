@@ -37,7 +37,8 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * kizárólag HTML5 doctype használható (`<!doctype html>`)
 * kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`), a kódolás megadásának az első [1024 byteban](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset) kell lennie
 * self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
-* attribútumok értékeinél double quotes használatos (`"`)
+* attribútumok értékeinél double quotes használatos (`"`) [w3c](https://www.w3.org/TR/html4/intro/sgmltut.html#h-3.2.2)
+* attribútumok sorrendje a [codeguide](https://codeguide.co/) szerint
 * entitásokat nem használunk, a kivételes eseteket leszámítva (`<` és `>`, illetve `&` némelyik speciális vezérlőkarakterhez, mint pl. a nem törhető szóközhöz)
 
 ### CSS
@@ -80,6 +81,11 @@ html {
 * változónevek kiválaszátáshoz a [naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet)-et ajánlott alkalmazni
 * [PSR-1](http://www.php-fig.org/psr/psr-1/) és [PSR-12](http://www.php-fig.org/psr/psr-12/) követése
 * sztringek esetében az aposztróf (`'`) használata kötelező, változók esetében használható a double quote (```"```)
+```php
+$q = htmlentities($searchValue, ENT_QUOTES, 'UTF-8');
+echo "<input type='search' name='q' placeholder='Search' value='$q'>";
+```
+
 * Kommentek esetében a [phpDocumentor](http://www.phpdoc.org/docs/latest/index.html) előírásait kell követni
 * vezérlési szerkezeteknél használhatóak az [alternatív verziók](https://www.php.net/manual/en/control-structures.alternative-syntax.php), mint például az `endif` és `endforaech`, de főleg templatekben
 
