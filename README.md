@@ -159,3 +159,4 @@ Az ajánlott vendorok megtalálhatóak az [awesome-links](https://github.com/Sta
 * [Isobar Front-end Code Standards](https://isobar-idev.github.io/code-standards/)
 * [Code Guide by @mdo](http://codeguide.co/)
 * [HTML Best Practices](https://github.com/hail2u/html-best-practices)
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
