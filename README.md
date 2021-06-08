@@ -49,7 +49,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
 * url-ek megadásánál aposztrófot használunk (url('/image.png'))
 * preferáltan az osztályokat hasznájuk leginkább
-* ajánlott maximum 3 szint mélységig menni az osztályok specificity-jében
+* ajánlott maximum 3 szint mélységig menni az osztályok [specificity](https://specificity.keegan.st/)-jében
 * `!important` kulcsszó használata kerülendő
 * shorthand-ek felesleges használata kerülendő, pl. ne használjunk ```background``` shorthandet ha csak háttérszínt szeretnék módosítani
 * ha valahol elkerülhetetlen a CSS hack használata, akkor különítsül el egy shame.css-be
