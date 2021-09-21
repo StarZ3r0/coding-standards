@@ -34,6 +34,15 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 
 * kizárólag kisbetűket használunk
 * célszerű használni a HTML5 szemantikus új elemeit (header, footer, nav, article, section, stb...)
+
+Példa: új komponens esetében használjuk a `<section>` vagy az `<article>` elemeket:
+```html
+<section class="component">
+  <h1 class="title">Title</h1>
+  <p>Paragraph</p>
+</section>
+```
+
 * kizárólag HTML5 doctype használható (`<!doctype html>`)
 * kötelező az UTF-8 kódolást jelölő meta tag (`<meta charset="UTF-8">`), a kódolás megadásának az első [1024 byteban](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset) kell lennie
 * self closing elemeknél tilos kitenni a záró perjelet (`<img src="/logo.png" alt="">`)
@@ -45,6 +54,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 
 * kizárólag kisbetűket használunk
 * az egyes definíciók közé üres sor rakunk
+* minden deklaráció kerüljön új sorba
 * id- és osztályneveknél a szavak elválasztására kötőjelet használunk (`.button-large`)
 * a tulajdonságokat záró kettőspont utánt szóközt teszünk (`font-weight: bold;`)
 * url-ek megadásánál aposztrófot használunk (url('/image.png'))
@@ -53,23 +63,43 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * `!important` kulcsszó használata kerülendő
 * shorthand-ek felesleges használata kerülendő, pl. ne használjunk ```background``` shorthandet ha csak háttérszínt szeretnék módosítani
 * ha valahol elkerülhetetlen a CSS hack használata, akkor különítsül el egy shame.css-be
+* 0, mint érték megadása esetén a mértékegység megadása felesleges ezért kerülendő
 
 Példa:
-```
+```css
 html {
     background: #fff;
 }
 
+.doc-block,
 .post-meta {
     margin: auto;
     width: 50%;
+}
+
+.navbar {
+  margin-bottom: var(--space);
+
+  @media (min-width: 480px) {
+    padding: 10px;
+  }
+
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  @media (min-width: 992px) {
+    position: fixed;
+  }
 }
 ```
 
 ### JavaSrcipt
 
 * JS prefix használata ajánlott, ezek formázása CSS-el kerülendő
-```
+```html
 <div id="js-slider" class="my-slider">
 ```
 * kód dokumentálásához a [JSDoc](http://usejsdoc.org/) használandó
@@ -138,12 +168,19 @@ $car = new Car();
 
 ## Git
 
+* a [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) szerint
 * használt commit típusok
 ```
 feature
 bugfix
 task
 wip
+```
+Példák:
+```
+git commit -m "feat: allow provided config object to extend configs"
+git commit -m "docs: correct spelling of CHANGELOG"
+git commit -m "feat(lang): add the Portuguese language"
 ```
 
 ## Tartalom
