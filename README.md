@@ -29,6 +29,7 @@ Nyelvek megjelenítésére vonatkozó ajánlások többnyelvű oldalak esetén (
 * kiemelt szempont a sebesség
 * elvárt a böngészőfüggetlen kód, ha arról a specifikáció másképp nem rendelkezik, akkor a támogatott böngészők az Internet Explorer 10+, illetve a Chrome és Firefox legfrisebb verziói
 * ha nem megoldható a böngészőfüggetlen kód, akkor törekedni kell az érintett böngészőben való használhatóságra
+* hibák jezése az [alábbi útmutató](https://www.perfectbugreport.io/) alapján
 
 ### HTML
 
